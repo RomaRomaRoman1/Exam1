@@ -23,7 +23,7 @@ public class ResultProcessor {
 
     void resultCalculation () {
         int i=0;
-        for (i = 1; i<+10; i++) {
+        for (i = 1; i<=10; i++) {
             if ((csvReaderAndLists.getRightAnswers().get(i)).equals(csvReaderAndLists.getStudentAnswers().get(i))) {
                 if (i<= 4) {
                     result = result + group1;
