@@ -9,3 +9,4 @@ import org.springframework.context.annotation.PropertySource;
 @ComponentScan("org.example")
 public class ExamConfigure {
 }
+//app test
